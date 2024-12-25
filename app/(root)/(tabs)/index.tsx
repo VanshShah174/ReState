@@ -5,10 +5,11 @@ import { Text, View, StyleSheet } from "react-native";
 export default function Index() {
   return (
     <View style={styles.container}>
-        <Link href="/sign-in">Sign in </Link>
-        <Link href="/explore">Explore</Link>
-        <Link href="/profile">Profile</Link>
-        <Link href="/properties/1"> Property</Link>
+      <Text className="font-bold text-lg mb-5">Welcome to the project</Text>
+      <Link href="/sign-in">Sign in </Link>
+      <Link href="/explore">Explore</Link>
+      <Link href="/profile">Profile</Link>
+      <Link href="/properties/1"> Property</Link>
     </View>
   );
 }
