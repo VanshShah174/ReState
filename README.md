@@ -22,23 +22,19 @@ ReState is a full-stack Real Estate application built with React Native and Appw
 ## Screenshots
 
 ### Splash Screen
-![Splash Screen]
-![WhatsApp Image 2025-01-06 at 23 28 48_23346612](https://github.com/user-attachments/assets/4236d3c7-a944-43a9-81b7-f4184137dc42)
-
+![Splash Screen]("C:\Users\vansh\Downloads\Splash-Screen.jpg")
 
 ### Home Screen
-![Home Screen]
-![WhatsApp Image 2025-01-06 at 23 28 48_d4b4e82e](https://github.com/user-attachments/assets/073319d2-3f8c-4b2a-901e-911bc494e851)
-
+![Home Screen]("C:\Users\vansh\Downloads\Home.jpg")
 
 ### Explore Screen
-![WhatsApp Image 2025-01-06 at 23 28 49_61a89334](https://github.com/user-attachments/assets/4c1967ec-8e38-4b17-9a8b-7da9eccb96e6)
+![Explore Screen]("C:\Users\vansh\Downloads\Explore.jpg")
 
 ### Profile Screen
-![WhatsApp Image 2025-01-06 at 23 28 49_44c81821](https://github.com/user-attachments/assets/5b4b9d46-eda7-478e-a275-e18d10c1f03a)
+![Profile Screen]("C:\Users\vansh\Downloads\Profile.jpg")
 
 ### Property Details Screen
-![WhatsApp Image 2025-01-06 at 23 28 49_55aefa4c](https://github.com/user-attachments/assets/7b8d6893-72a4-436e-8ded-2266a79fe284)
+![Property Details Screen]("C:\Users\vansh\Downloads\Property-Detail.jpg")
 
 ## File Structure
 - **\`components/\`**:
