@@ -2,7 +2,7 @@
 
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Appwrite](https://img.shields.io/badge/Appwrite-F02E65?style=for-the-badge&logo=appwrite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Nativewind](https://img.shields.io/badge/Nativewind-000000?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
 
 ## Introduction
@@ -16,25 +16,8 @@ ReState is a full-stack Real Estate application built with React Native and Appw
 - **Database Integration**: Appwrite backend with a seeded database for properties.
 
 ## Technologies Used
-- **Frontend**: React Native, Expo, TypeScript, Nativewind, Tailwind CSS
+- **Frontend**: React Native, Expo, TypeScript, Nativewind
 - **Backend**: Appwrite (Authentication & Database)
-
-## Screenshots
-
-### Splash Screen
-![Splash Screen]("C:\Users\vansh\Downloads\Splash-Screen.jpg")
-
-### Home Screen
-![Home Screen]("C:\Users\vansh\Downloads\Home.jpg")
-
-### Explore Screen
-![Explore Screen]("C:\Users\vansh\Downloads\Explore.jpg")
-
-### Profile Screen
-![Profile Screen]("C:\Users\vansh\Downloads\Profile.jpg")
-
-### Property Details Screen
-![Property Details Screen]("C:\Users\vansh\Downloads\Property-Detail.jpg")
 
 ## File Structure
 - **\`components/\`**:
