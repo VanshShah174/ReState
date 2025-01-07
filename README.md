@@ -33,25 +33,16 @@ ReState is a full-stack Real Estate application built with React Native and Appw
 Follow these steps to set up the project on your local machine:
 
 1. **Clone the repository**:
-   \`\`\`bash
    git clone https://github.com/yourusername/ReState.git
-   \`\`\`
 2. **Navigate to the project directory**:
-   \`\`\`bash
    cd ReState
-   \`\`\`
 3. **Install dependencies**:
-   \`\`\`bash
    npm install
-   \`\`\`
 4. **Set up environment variables**:
    - Create a \`.env.local\` file in the root directory.
    - Add your Appwrite credentials and API keys.
-
 5. **Start the development server**:
-   \`\`\`bash
-   npm start
-   \`\`\`
+   npm expo start
 
 ## Usage
 1. Launch the app on an emulator or physical device using Expo.
