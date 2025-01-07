@@ -1,50 +1,89 @@
-# Welcome to your Expo app 👋
+# ReState
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Appwrite](https://img.shields.io/badge/Appwrite-F02E65?style=for-the-badge&logo=appwrite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
 
-## Get started
+## Introduction
+ReState is a full-stack Real Estate application built with React Native and Appwrite. It provides a seamless property search experience with features like Google Authentication, dynamic routing, and responsive design. This project is a personal endeavor to master scalable and clean React Native development practices.
 
-1. Install dependencies
+## Features
+- **Google Authentication**: Secure login using Google OAuth with Appwrite.
+- **Dynamic Routing**: Efficient navigation with tab-based and stack-based routing.
+- **Property Listings**: Dynamic data fetching and display of real estate properties.
+- **Responsive UI**: Designed for a seamless user experience on both iOS and Android.
+- **Database Integration**: Appwrite backend with a seeded database for properties.
 
-   ```bash
+## Technologies Used
+- **Frontend**: React Native, Expo, TypeScript, Nativewind, Tailwind CSS
+- **Backend**: Appwrite (Authentication & Database)
+
+## Screenshots
+
+### Splash Screen
+![Splash Screen]
+![WhatsApp Image 2025-01-06 at 23 28 48_23346612](https://github.com/user-attachments/assets/4236d3c7-a944-43a9-81b7-f4184137dc42)
+
+
+### Home Screen
+![Home Screen]
+![WhatsApp Image 2025-01-06 at 23 28 48_d4b4e82e](https://github.com/user-attachments/assets/073319d2-3f8c-4b2a-901e-911bc494e851)
+
+
+### Explore Screen
+![WhatsApp Image 2025-01-06 at 23 28 49_61a89334](https://github.com/user-attachments/assets/4c1967ec-8e38-4b17-9a8b-7da9eccb96e6)
+
+### Profile Screen
+![WhatsApp Image 2025-01-06 at 23 28 49_44c81821](https://github.com/user-attachments/assets/5b4b9d46-eda7-478e-a275-e18d10c1f03a)
+
+### Property Details Screen
+![WhatsApp Image 2025-01-06 at 23 28 49_55aefa4c](https://github.com/user-attachments/assets/7b8d6893-72a4-436e-8ded-2266a79fe284)
+
+## File Structure
+- **\`components/\`**:
+  - Modular UI components like \`Cards\`, \`Search\`, and \`Filters\`.
+- **\`constants/\`**:
+  - Centralized static data, icons, and image paths.
+- **\`hooks/\`**:
+  - Custom React hooks for theme and color management.
+- **\`lib/\`**:
+  - Backend integration with Appwrite and global state management.
+
+## Setup and Installation
+Follow these steps to set up the project on your local machine:
+
+1. **Clone the repository**:
+   \`\`\`bash
+   git clone https://github.com/yourusername/ReState.git
+   \`\`\`
+2. **Navigate to the project directory**:
+   \`\`\`bash
+   cd ReState
+   \`\`\`
+3. **Install dependencies**:
+   \`\`\`bash
    npm install
-   ```
+   \`\`\`
+4. **Set up environment variables**:
+   - Create a \`.env.local\` file in the root directory.
+   - Add your Appwrite credentials and API keys.
 
-2. Start the app
+5. **Start the development server**:
+   \`\`\`bash
+   npm start
+   \`\`\`
 
-   ```bash
-    npx expo start
-   ```
+## Usage
+1. Launch the app on an emulator or physical device using Expo.
+2. Log in using Google Authentication.
+3. Explore the Home and Explore screens for property listings.
+4. View property details and interact with other features.
 
-In the output, you'll find options to open the app in a
+## Future Enhancements
+- Real-time chat for property inquiries.
+- User profiles with saved properties and preferences.
+- Advanced filtering options for property searches.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## License
+This project is licensed under the MIT License.
